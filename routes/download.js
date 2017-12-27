@@ -10,9 +10,6 @@ router.get('/:fileId', async (req, res) => {
     .from('files')
     .where({ id: req.params.fileId });
 
-  console.log(file[0].name);
-  console.log(file[0].content.length);
-
   res.setHeader('Content-Disposition', `attachment; filename="${file[0].name}"`);
   res.send(file[0].content);
 });

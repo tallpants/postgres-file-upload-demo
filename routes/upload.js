@@ -10,8 +10,6 @@ router.post('/', async (req, res) => {
       name: req.files.uploadedFile.name,
       content: req.files.uploadedFile.data
     });
-    console.log(req.files.uploadFile.length);
-    console.log(`Inserted '${req.files.uploadedFile.name}'`);
   }
 
   return res.redirect('/');
