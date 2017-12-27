@@ -1,0 +1,10 @@
+<h3>Uploaded files</h3>
+
+<ul>
+  {{#each uploadedFiles }}
+    <li>
+      <a href="/download/{{ id }}">{{ name }}</a>
+      {{> delete_form this }}
+    </li>
+  {{/each}}
+</ul>

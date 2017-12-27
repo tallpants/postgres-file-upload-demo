@@ -1,0 +1,8 @@
+{
+  "pg": {
+    "host": "localhost",
+    "user": "mathongo",
+    "password": "pass$123",
+    "database": "mathongo"
+  }
+}
