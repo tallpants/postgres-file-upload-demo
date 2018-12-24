@@ -1,6 +1,6 @@
-# Don't do this
+# ⚠️ DON'T DO THIS ⚠️
 
-This is terrible code -- you shouldn't be storing files _inside_ Postgres. Please don't do this.
+**This is a terrible idea -- you shouldn't be storing files _inside_ Postgres. Please don't do this.**
 
 # Node - Postgres file upload demo
 
