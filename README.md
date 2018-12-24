@@ -1,3 +1,7 @@
+# Don't do this
+
+This is terrible code -- you shouldn't be storing files _inside_ Postgres. Please don't do this.
+
 # Node - Postgres file upload demo
 
 This is a very quick demo for file upload and download with Node and Postgres.
